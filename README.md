@@ -1,5 +1,23 @@
 # LinkedIn Post Generator
 
+<div align="center">
+
+### 🎥 Project Demo
+
+<a href="https://www.youtube.com/watch?v=23ZcAQhzHyM">
+  <img
+    src="https://img.youtube.com/vi/23ZcAQhzHyM/hqdefault.jpg"
+    alt="Watch LinkedIn Post Generator Demo"
+    width="800"
+  />
+</a>
+
+**▶ Click the thumbnail to watch the full demo**
+
+</div>
+
+---
+
 An AI-powered LinkedIn Post Generator built with **Python, LangChain, and Ollama**. This project generates professional, engaging LinkedIn posts based on a user-provided topic and selected language using a locally running large language model (LLM).
 
 Developed as part of the **Module 21 – AI Agent Project** assignment.
