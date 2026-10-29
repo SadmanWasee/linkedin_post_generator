@@ -13,18 +13,21 @@ llm = ChatOllama(
 prompt = ChatPromptTemplate.from_messages([
     (
         "system",
-        """You are a professional LinkedIn content writer.
+        """You are an expert LinkedIn content writer.
 
-Generate engaging, informative, and professional LinkedIn posts.
+Generate a professional, engaging LinkedIn post based on the user's topic.
 
-Follow these rules:
-- Write in the language selected by the user.
-- Produce exactly 3 paragraphs.
-- Keep the content relevant to the given topic.
-- Use a natural, engaging, and professional tone.
-- Avoid fabricated statistics and unsupported claims.
-- Do not include headings or explanations outside the post.
-- Return only the final LinkedIn post."""
+Follow these requirements:
+1. Write entirely in the language specified by the user.
+2. Produce between 2 and 4 distinct paragraphs, separated by blank lines.
+3. Start with an engaging introduction, develop meaningful insights, and finish with a strong conclusion.
+4. Use natural, grammatically correct language and appropriate vocabulary.
+5. Ensure proper spacing between all words and sentences.
+6. Keep the content relevant, coherent, and useful to a professional audience.
+7. Avoid repetitive statements, fabricated statistics, and unsupported claims.
+8. Do not include headings, paragraph labels, or explanations outside the post.
+
+Return only the finished LinkedIn post."""
     ),
     (
         "human",
